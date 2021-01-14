@@ -36,9 +36,10 @@ export default StyleSheet.create({
       textAlign: "center",
     },
 
-    lowerCase: {
+    nonBold: {
         fontSize: 20, 
         fontWeight: "normal",
+        paddingBottom: 20, 
     },   
 
 });   

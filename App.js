@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, ImageBackground } from 'react-native';
+import { Text, View, ImageBackground, Image } from 'react-native';
 import { Ionicons, Entypo } from '@expo/vector-icons';
 import StyleSheet from './components/my_styles'; 
 
@@ -37,13 +37,14 @@ export default class App extends React.Component {
             {this.renderMessageStatus()}
           </View>
           <View style={StyleSheet.swipe}>
-            <Text style={[StyleSheet.text, StyleSheet.lowerCase]}>Slide to open</Text>
+            <Text style={[StyleSheet.text, StyleSheet.nonBold]}>SLIDE TO OPEN</Text>
           <SwipeButton
             RightToLeftSwipe
             thumbIconComponent={this.keyIcon}
             thumbIconBackgroundColor="teal"
             title=""
             swipeSuccessThreshold={70}
+            railBackgroundColor="#c2c2d6"
             railFillBackgroundColor="transparent"
             railFillBorderColor="transparent"
             onSwipeStart={() => 
