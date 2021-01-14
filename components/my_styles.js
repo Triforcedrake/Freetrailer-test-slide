@@ -14,7 +14,7 @@ export default StyleSheet.create({
 
     top: {
         flex: 4, 
-        paddingTop: 200, 
+        marginTop: 200, 
     },
 
     swipe: {
@@ -28,9 +28,9 @@ export default StyleSheet.create({
     
     text: {
       fontSize: 40,
-      paddingTop: 20, 
-      paddingLeft: 20,
-      paddingRight: 20,  
+      marginTop: 20, 
+      marginLeft: 20,
+      marginRight: 20,  
       color: "white",
       fontWeight: "bold",
       textAlign: "center",
@@ -39,7 +39,7 @@ export default StyleSheet.create({
     nonBold: {
         fontSize: 20, 
         fontWeight: "normal",
-        paddingBottom: 20, 
+        marginBottom: 20, 
     },   
 
 });   
